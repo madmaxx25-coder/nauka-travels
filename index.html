@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nauka Travels | Explore Kerala</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+scroll-behavior:smooth;
+}
+
+body{
+background:#08111f;
+color:white;
+overflow-x:hidden;
+}
+
+header{
+position:fixed;
+top:0;
+width:100%;
+padding:20px 8%;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,.4);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+.logo{
+font-size:32px;
+font-weight:800;
+letter-spacing:2px;
+color:#d4af37;
+}
+
+nav a{
+text-decoration:none;
+color:white;
+margin-left:25px;
+font-weight:500;
+}
+
+.book-btn{
+padding:12px 25px;
+border:1px solid #d4af37;
+border-radius:30px;
+color:#d4af37;
+}
+
+.hero{
+height:100vh;
+background:
+linear-gradient(rgba(0,0,0,.45),rgba(0,0,0,.75)),
+url('kochi-banner.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+}
+
+.hero-content{
+padding:0 8%;
+max-width:800px;
+}
+
+.hero-content h4{
+font-size:20px;
+letter-spacing:10px;
+font-weight:300;
+}
+
+.hero-content h1{
+font-size:110px;
+font-weight:800;
+line-height:1;
+}
+
+.hero-content h2{
+font-size:60px;
+font-weight:300;
+margin-top:10px;
+}
+
+.hero-content p{
+font-size:24px;
+margin-top:20px;
+color:#ddd;
+}
+
+.price-box{
+display:inline-block;
+margin-top:30px;
+padding:20px 35px;
+background:rgba(255,255,255,.08);
+backdrop-filter:blur(10px);
+border-radius:15px;
+}
+
+.price{
+font-size:50px;
+font-weight:700;
+color:#d4af37;
+}
+
+.cta{
+margin-top:30px;
+}
+
+.btn{
+display:inline-block;
+padding:15px 35px;
+border-radius:50px;
+text-decoration:none;
+font-weight:600;
+margin-right:15px;
+}
+
+.primary{
+background:#d4af37;
+color:black;
+}
+
+.secondary{
+border:1px solid white;
+color:white;
+}
+
+.section{
+padding:100px 8%;
+}
+
+.section-title{
+text-align:center;
+font-size:45px;
+margin-bottom:50px;
+}
+
+.features{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+gap:25px;
+}
+
+.feature{
+background:#111b2b;
+padding:30px;
+border-radius:20px;
+text-align:center;
+}
+
+.feature h3{
+margin-top:15px;
+}
+
+.packages{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+gap:25px;
+}
+
+.package{
+background:#111b2b;
+border-radius:20px;
+overflow:hidden;
+}
+
+.package img{
+width:100%;
+height:220px;
+object-fit:cover;
+}
+
+.package-content{
+padding:25px;
+}
+
+.package-price{
+font-size:30px;
+font-weight:700;
+color:#d4af37;
+margin-top:15px;
+}
+
+.contact{
+background:#111;
+text-align:center;
+padding:80px 20px;
+}
+
+.contact p{
+font-size:20px;
+margin:10px 0;
+}
+
+footer{
+background:#050505;
+padding:25px;
+text-align:center;
+}
+
+.whatsapp{
+position:fixed;
+bottom:25px;
+right:25px;
+background:#25D366;
+color:white;
+padding:15px 25px;
+border-radius:50px;
+text-decoration:none;
+font-weight:700;
+box-shadow:0 5px 20px rgba(0,0,0,.3);
+}
+
+@media(max-width:768px){
+
+.hero-content h1{
+font-size:60px;
+}
+
+.hero-content h2{
+font-size:35px;
+}
+
+.hero-content p{
+font-size:18px;
+}
+
+nav{
+display:none;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">NAUKA TRAVELS</div>
+
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About</a>
+<a href="#packages">Packages</a>
+<a href="#contact">Contact</a>
+<a href="https://wa.me/919400418006" class="book-btn">Book Now</a>
+</nav>
+
+</header>
+
+<section class="hero" id="home">
+
+<div class="hero-content">
+
+<h4>EXPLORE</h4>
+
+<h1>KOCHI</h1>
+
+<h2>with Nauka Travels</h2>
+
+<p>
+A place where your dreams set sail
+</p>
+
+<div class="price-box">
+<div class="price">₹3199</div>
+<div>1 Night / 2 Days</div>
+</div>
+
+<div class="cta">
+<a href="https://wa.me/919400418006" class="btn primary">Book Now</a>
+<a href="#packages" class="btn secondary">View Packages</a>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="about">
+
+<h2 class="section-title">Why Choose Nauka Travels?</h2>
+
+<div class="features">
+
+<div class="feature">
+<h3>🛡 Trusted & Safe</h3>
+<p>Your safety is our priority</p>
+</div>
+
+<div class="feature">
+<h3>💰 Best Prices</h3>
+<p>Affordable travel packages</p>
+</div>
+
+<div class="feature">
+<h3>🚕 Rental Cab</h3>
+<p>Comfortable rides throughout your trip</p>
+</div>
+
+<div class="feature">
+<h3>📞 24×7 Support</h3>
+<p>Always here to help</p>
+</div>
+
+</div>
+
+</section>
+
+<section class="section" id="packages">
+
+<h2 class="section-title">Popular Packages</h2>
+
+<div class="packages">
+
+<div class="package">
+<img src="kochi.jpg">
+<div class="package-content">
+<h3>Explore Kochi</h3>
+<p>1 Night / 2 Days</p>
+<div class="package-price">₹3199</div>
+</div>
+</div>
+
+<div class="package">
+<img src="munnar.jpg">
+<div class="package-content">
+<h3>Munnar Escape</h3>
+<p>2 Nights / 3 Days</p>
+<div class="package-price">₹4999</div>
+</div>
+</div>
+
+<div class="package">
+<img src="wayanad.jpg">
+<div class="package-content">
+<h3>Wayanad Adventure</h3>
+<p>2 Nights / 3 Days</p>
+<div class="package-price">₹4499</div>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<section class="contact" id="contact">
+
+<h2 class="section-title">Contact Us</h2>
+
+<p>📞 +91 9400418006</p>
+<p>📞 +91 99471 11783</p>
+<p>✉ sales@naukatravels.com</p>
+
+<a href="https://wa.me/919400418006" class="btn primary">
+WhatsApp Now
+</a>
+
+</section>
+
+<footer>
+
+© 2026 Nauka Travels. All Rights Reserved.
+
+</footer>
+
+<a href="https://wa.me/919400418006" class="whatsapp">
+WhatsApp
+</a>
+
+</body>
+</html>
